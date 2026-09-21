@@ -96,6 +96,7 @@ menu.forEach(category => {
 
     const categoryHeading = document.createElement("h2");
     categoryHeading.textContent = category.category;
+    categoryHeading.id="category-heading";
 
     const categoryList = document.createElement("div");
     categoryList.className = "category-list";

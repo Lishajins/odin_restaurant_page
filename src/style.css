@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fuzzy+Bubbles:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --cream: #F8E9C7;
     --light-beige: #F5F1E6;
@@ -20,6 +23,88 @@
     --muted-gray: #6B6B6B;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 body{
-    background-color: #D4A373;
+    background-color: var(--warm-sand);
+    color: var(--deep-coffee);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    font-size: 22px;
+}
+
+h1,h2{
+    font-family: "Fuzzy Bubbles", cursive;
+    font-size: 44px;
+}
+
+body, button{
+    font-family: "Caveat", cursive;
+}
+
+nav{
+    background-color: var(--fruit-red);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    height: 40px;
+    box-shadow: 0 4px 12px rgba(78, 52, 46, 0.18);
+    width: 50vw;
+}
+
+#home-btn, #menu-btn, #contact-btn{
+    background-color: transparent;
+    border: 0px;
+    font-size: 22px;
+}
+
+#content{
+    background-color: var(--cream);
+    width: 50vw;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(78, 52, 46, 0.18);
+}
+
+.gallery-image{
+    width: 145px;
+    height: 145px;
+}
+
+.menu-name{
+    font-weight: 900;
+}
+
+#category-heading{
+    background-color: var(--leaf-green);
+    padding: 10px;
+}
+
+#contact-info{
+    font-weight: 900;
+}
+
+.contact-page-heading{
+    background-color: var(--sky-blue);
+}
+
+button{
+    width: 170px;
+    height: 40px;
+    font-size: 22px;
+    background-color: var(--soft-green);
+}
+
+#special-name{
+    font-weight: 900;
+}
+
+#specials-list{
+    background-color: var(--sky-blue);
+    padding: 10px;
+    margin-top: 10px;
 }

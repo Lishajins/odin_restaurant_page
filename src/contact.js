@@ -7,6 +7,7 @@ export function loadcontact() {
 
     const contactHeading = document.createElement("h1");
     contactHeading.textContent = "Come Say Hello!";
+    contactHeading.className="contact-page-heading";
 
     const contactIntro = document.createElement("p");
     contactIntro.textContent ="Have a question, want to make a reservation, or simply need more capybara energy in your life? We'd love to hear from you.";
@@ -31,12 +32,14 @@ export function loadcontact() {
         "Opening Hours: Monday–Friday: 10:00 AM–10:00 PM | Saturday–Sunday: 9:00 AM–11:00 PM";
 
     contactInfo.append(address, phone, email, hours);
+    contactInfo.id="contact-info";
 
     const reservationSection = document.createElement("div");
     reservationSection.id = "reservation-section";
 
     const reservationHeading = document.createElement("h2");
     reservationHeading.textContent = "Reserve a Table";
+    reservationHeading.className="contact-page-heading";
 
     const reservationText = document.createElement("p");
     reservationText.textContent ="Planning a cozy meal? Give us a call or drop us an email and we'll save you a spot.";
