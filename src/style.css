@@ -1,0 +1,25 @@
+:root {
+    --cream: #F8E9C7;
+    --light-beige: #F5F1E6;
+
+    --capy-brown: #8B5E3C;
+    --warm-sand: #D4A373;
+    --deep-coffee: #4E342E;
+
+    --cafe-orange: #E6843A;
+
+    --sky-blue: #7EC8F3;
+    --pool-blue: #4FB6C6;
+
+    --leaf-green: #7A9E3E;
+    --soft-green: #B9D77A;
+
+    --fruit-red: #E05A4F;
+
+    --white: #FFFFFF;
+    --muted-gray: #6B6B6B;
+}
+
+body{
+    background-color: #D4A373;
+}
